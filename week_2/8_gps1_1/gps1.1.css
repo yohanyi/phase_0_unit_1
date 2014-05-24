@@ -1,1 +1,46 @@
-/* include your css here */
+            body {
+                width:960px;
+                margin: 0 auto;
+                font-family: arial;
+                background: white;
+            }
+            
+
+            header, footer {
+                text-align:center;
+                font-family: arial;
+                background-color: #77C1F8;
+            }
+            
+            p {
+                line-height: 1.5;
+                padding-bottom: 10px;
+                font-family: arial;
+            }
+            
+            #content {
+                border-bottom: 1px solid #000;
+                background-color: #02779E;
+                padding: 15px;
+                padding-bottom:50px;
+                color: #FFF;
+            }
+            
+            h1 {
+                color: #02779E;
+                display:inline;
+            }
+            
+            h3 {
+                display:inline-block;
+            }
+            
+            footer {
+                line-height: 1.5;
+                padding-top: 20px;
+            }
+            
+            img {
+                padding-right: 20px;
+                max-width: 150px;
+            }
