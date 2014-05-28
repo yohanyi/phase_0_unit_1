@@ -3,21 +3,23 @@
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
+var secretNumber = 7
+var password = "just open the door"
+var allowedIn = false
+var members = ["John",2,3,"Mary"]
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
+// I spent very little time during the prep period on JavaScript, so this section took a little longer
+// than it would have normally. My strategy this time was to do all the reading in the intro lab,
+// while using the pomodoro technique to help keep me on track.  On the other hand, I spent a lot of time
+// on ruby and understand ruby much better. I really benefited greatly from the javascript intro lab
+// being taught in relation to ruby. It really gave me a sense of the differences and similarities 
+// of javascript and ruby. I really enjoyed the TDD section also. I know that many programmers use
+// TDD and it will be a huge part of my future as a programmer. I felt that trying to make the tests
+// pass purely off of running the tests, without any prior directions, was the most tedious part, but 
+// I learned a lot about what causes errors, and how to fix them.
 
 
 // __________________________________________
