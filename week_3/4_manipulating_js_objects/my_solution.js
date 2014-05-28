@@ -15,9 +15,39 @@ var terah = {
 
 
 // __________________________________________
-// Write your code below.
+// Write your code below.t
+// 1 . Define a variable adam and use object literal notation to assign this variable 
+//     the value of a JavaScript Object object with no properties.
+var adam = {}
+// 2. Give adam a name property with the value "Adam".
+adam.name = "Adam"
+// 3. Add a spouse property to terah and assign it the value of adam.
+terah.spouse = adam
+// 4. Change the value of the terah weight property to 125.
+terah.weight = 125
+// 5. Remove the eyeColor property from terah.
+delete terah["eyeColor"]
+// 6. Add a spouse property to adam and assign it the value of terah.
+adam.spouse = terah
+// 7. Add a children property to terah and and use object literal notation to assign 
+//    this variable the value of a JavaScript Object object with no properties
+terah.children = {}
+// 8. Add a carson property to the value of the terah children property and assign it 
+//    the value of an object with the property name with a value of "Carson".
 
+terah.children.carson = {}
+terah.children.carson.name = "Carson"
+// 9. Add a carter property to the value of the terah children property and assign it 
+//    the value of an object with the property name with a value of "Carter".
+terah.children.carter = {}
+terah.children.carter.name = "Carter"
+// 10. Add a colton property to the value of the terah children property and assign it 
+//  the value of an object with the property name with a value of "Colton".
+terah.children.colton = {}
+terah.children.colton.name = "Colton"
 
+// 11. Add a children property to adam and assign it the value of terah children.
+adam.children = terah.children
 
 
 
@@ -26,12 +56,18 @@ var terah = {
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// With the javasript review we had the challenge before, this solo challenge was fairly
+// simple. This challenge was only focused on manipulating js objects, which made it easy
+// to follow and research on. The only problem i had was for tests #8-11. It took some time
+// and some research to understand why "terah.children.carter.name = "Carter"" was giving me
+// error. I found out that you have to great a "terah.children.carter= {}" then add the name
+// property and "Carter" value after. I definitley am going to read into the syntax a little
+// more to get a better understanding of why the first method didn't work. I learned how much
+// tests can help your code, especially if you write tests before you actually do any coding.
+// I'm pretty confident in the learning competincies, but ofcourse I feel like I have a long
+// way to go. Learning in general is very tedious, especially when I haven't worked with 
+// javascript much. I feel like I'm getting better and better every minute I spend working on 
+// this challenge.
 
 
 // __________________________________________
