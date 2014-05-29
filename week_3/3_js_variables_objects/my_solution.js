@@ -1,12 +1,12 @@
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself, with: Yohan Yi, Vlad
 
 // __________________________________________
 // Write your code below.
 
-var secretNumber = 7
-var password = "just open the door"
-var allowedIn = false
-var members = ["John",2,3,"Mary"]
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = ["John", 1, true, "Mary"];
 
 
 // __________________________________________
