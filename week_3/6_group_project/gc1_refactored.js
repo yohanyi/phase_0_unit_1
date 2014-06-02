@@ -43,6 +43,10 @@ var median = function(list){
  //amount of numbers in the given list, then find the number in the middle. 
  //If the list has an even amount of numbers, I want to find the number exactly in between
  //the two numbers that are in the middle. 
+ //We just got the end results of our group project. Vlad (person#1) told us that all tests
+ //passed and that everyone did exactly what we had to do. It's pretty cool knowing that even
+ //though I only did a small portion, everyone did their parts, and together we accomplished
+ //a larger task. 
 
 
   //Reflection
